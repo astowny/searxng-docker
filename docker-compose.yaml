@@ -23,7 +23,7 @@ services:
     networks:
       - searxng
     ports:
-      - "8080"
+      - "8086:8080"
     volumes:
       - ./searxng:/etc/searxng:rw
     environment:
